@@ -1,7 +1,6 @@
 # make it by defining the values to a matrix 
 # different for all the cases that are the desired output of the game 
-# taake the random value fform the computer defining the stone paper siccor and make the user  to give the input of the player'
-            
+# taake the random value fform the computer defining the stone paper siccor and make the user  to give the input of the player'         
 global game 
 game = [
     [0,-1,1],
@@ -25,7 +24,6 @@ def st_pap_sci():
       except :
          raise ValueError("that's not the desired  number . Enter the number among 0 , 1 , 2 :")
 
-   
     j = r.choice(my_list)
         
     if i == j :
